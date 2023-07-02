@@ -22,6 +22,39 @@
 // } else {
 //   console.log(`${min} не належить до проміжку`);
 // }
+
+// Напишіть if..else, що відповідає наступному switch:
+// const browser = "Opera"
+// switch (browser) {
+//   case 'Edge':
+//     alert( "You've got the Edge!" );
+//     break;
+
+//   case 'Chrome':
+//   case 'Firefox':
+//   case 'Safari':
+//   case 'Opera':
+//     alert( 'Okay we support these browsers too' );
+//     break;
+
+//   default:
+//     alert( 'We hope that this page looks ok!' );
+// }
+
+// const browser = "sjkdbnckj";
+// if (browser === "Edge") {
+//   alert("You've got the Edge!");
+// } else if (
+//   browser === "Chrome" ||
+//   browser === "Firefox" ||
+//   browser === "Safari" ||
+//   browser === "Opera"
+// ) {
+//   alert("Okay we support these browsers too");
+// } else {
+//   alert("We hope that this page looks ok!");
+// }
+
 // тернарний оператор =================
 // Якщо змінна a дорівнює 10, виведіть 'Вірно', інакше виведіть 'Невірно'.
 // const a = 10;
@@ -35,29 +68,29 @@
 // значення '1', то у змінну result запишемо 'зима', якщо має значення
 // '2' - 'весна' і так далі. Розв'яжіть завдання через switch-case.
 
-const num = 0;
-let result = "";
+// const num = 0;
+// let result = "";
 
-switch (num) {
-  case 1:
-    result = "зима";
+// switch (num) {
+//   case 1:
+//     result = "зима";
 
-    break;
-  case 2:
-    result = "весна";
+//     break;
+//   case 2:
+//     result = "весна";
 
-    break;
-  case 3:
-    result = "осінь";
+//     break;
+//   case 3:
+//     result = "осінь";
 
-    break;
-  case 4:
-    result = "літо";
+//     break;
+//   case 4:
+//     result = "літо";
 
-    break;
+//     break;
 
-  default:
-    result = "Не являється порою року";
-    break;
-}
-console.log(result);
+//   default:
+//     result = "Не являється порою року";
+//     break;
+// }
+// console.log(result);
