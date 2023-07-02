@@ -68,6 +68,26 @@
 //     console.log(`iterator = ${iterator}`);
 //     iterator += 1;
 //  }
+
+//Напишіть цикл, який виводить у консоль
+// числа від max до min за спаданням
+// Додайте усі парні числа від min до max
+const min = 0;
+const max = 10;
+let total = 0;
+
+for (let i = max; i >= min; i-=1) {
+    if (i % 2 !== 0) {
+        console.log("непарне і = ", i)
+        continue
+    }
+   console.log("парне і = ", i )
+    total += i;
+
+}
+console.log(total);
+
+
 // конструктор switch ==================
 
 // Змінна num може набувати 4 значення: 1, 2, 3 або 4. Якщо вона має
