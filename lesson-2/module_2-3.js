@@ -92,14 +92,43 @@
 // приймає рядок (параметр message) і форматує його,
 // якщо довжина перевищує значення параметрі maxLength
 
-function formatMessage(message, maxLength) {
-  if (message.length > maxLength) {
-    return message.slice(0, maxLength) + "...";
-  }
-  return message;
-}
+// function formatMessage(message, maxLength) {
+//   if (message.length > maxLength) {
+//     return message.slice(0, maxLength) + "...";
+//   }
+//   return message;
+// }
 
-console.log(formatMessage("Curabitur ligula sapien", 16)); //Повертає 'Curabitur ligula...'.
-console.log(formatMessage("Curabitur ligula sapien", 23)); //Повертає 'Curabitur ligula sapien'.
-console.log(formatMessage("Nunc sed turpis a felis in nunc fringilla", 15)); //Повертає 'Nunc sed turpis...'.
-console.log(formatMessage("Nunc sed turpis a felis in nunc fringilla", 41)); //Повертає 'Nunc sed turpis a felis in nunc fringilla'.
+// console.log(formatMessage("Curabitur ligula sapien", 16)); //Повертає 'Curabitur ligula...'.
+// console.log(formatMessage("Curabitur ligula sapien", 23)); //Повертає 'Curabitur ligula sapien'.
+// console.log(formatMessage("Nunc sed turpis a felis in nunc fringilla", 15)); //Повертає 'Nunc sed turpis...'.
+// console.log(formatMessage("Nunc sed turpis a felis in nunc fringilla", 41)); //Повертає 'Nunc sed turpis a felis in nunc fringilla'.
+
+//TODO: № 7 ==============================================================
+// Напиши скрипт, який для об'єкта user,
+// Послідовно:
+// 1. додати поле mood зі значенням 'happy'
+// 2. замінити hobby на 'skydiving'
+// 3. замінити значення premium на false
+// 4. виводити зміст об'єкта user у форматі
+// ключ:значення використовуючи Object.keys() і for...of
+
+// const user = {
+//   name: "John",
+//   age: 20,
+//   hobby: "tenis",
+//   premium: true,
+//   greet() {
+//     console.log(`Hello ${this.name}`);
+//   },
+// };
+
+// user.mood = "happy";
+// user.premium = false;
+// console.log(user.greet());
+
+// // console.log("🚀 ~ user:", user);
+
+// for (const key of Object.keys(user)) {
+//   console.log(`${key}:${user[key]}`);
+// }
