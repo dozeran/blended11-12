@@ -40,3 +40,34 @@
 // }
 
 // console.log(caclculateAverage("true", 10, 10, 20, 200));
+
+//TODO: № 3  ============================================================
+// Напишіть функцію min(a,b), яка повертає менше чисел a і b.
+
+// function min(a, b) {
+//   if (typeof a !== "number" || typeof b !== "number") {
+//     return "Не правильне значення a або б";
+//   }
+
+//   // if (a < b) {
+//   //   return a;
+//   // }
+//   // return b;
+
+//   return a < b ? a : b; // тернарний
+// }
+// console.log(min("7", 5));
+
+//TODO: № 4 ==============================================================
+// напиши функцію яка сумуватиме сусідні числа і пушити в новий масив
+// const someArr = [22, 11, 34, 5, 12, 13, 14, 15];
+
+// function total(array) {
+//   const newArr = [];
+//   for (let i = 0; i < array.length - 1; i += 1) {
+//     newArr.push(array[i] + array[i + 1]);
+//   }
+//   return newArr;
+// }
+
+// console.log(total(someArr));
