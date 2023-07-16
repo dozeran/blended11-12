@@ -71,3 +71,35 @@
 // }
 
 // console.log(total(someArr));
+
+//TODO: № 5 ==============================================================
+//Напишіть функцію logItems(array), яка приймає
+//масив та використовує цикл for, який для кожного
+//елемента масиву виводитиме повідомлення у форматі
+//<номер елемента> - <значення елемента>
+//Нумерація елементів має починатися з першого.
+//['Джаз', 'Блюз', 'Рок-н-рол', 'Реггі', 'Реп']
+
+// function logItems(array) {
+//   for (let i = 0; i < array.length; i += 1) {
+//     console.log(`номер елемента-${i + 1}: значення елемента-${array[i]}`);
+//   }
+// }
+// logItems(["Джаз", "Блюз", "Рок-н-рол", "Реггі", "Реп"]);
+
+//TODO: № 6 ==============================================================
+// Функція formatMessage(message, maxLength)
+// приймає рядок (параметр message) і форматує його,
+// якщо довжина перевищує значення параметрі maxLength
+
+function formatMessage(message, maxLength) {
+  if (message.length > maxLength) {
+    return message.slice(0, maxLength) + "...";
+  }
+  return message;
+}
+
+console.log(formatMessage("Curabitur ligula sapien", 16)); //Повертає 'Curabitur ligula...'.
+console.log(formatMessage("Curabitur ligula sapien", 23)); //Повертає 'Curabitur ligula sapien'.
+console.log(formatMessage("Nunc sed turpis a felis in nunc fringilla", 15)); //Повертає 'Nunc sed turpis...'.
+console.log(formatMessage("Nunc sed turpis a felis in nunc fringilla", 41)); //Повертає 'Nunc sed turpis a felis in nunc fringilla'.
