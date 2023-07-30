@@ -142,3 +142,33 @@
 
 // const userPass = savePassword("qwerty");
 // console.log(userPass());
+
+//TODO: № 8 на class-ы  =============================================
+//Напиши функцію конструктор User для створення користувача з такими властивостями
+//a. userName - ім'я, рядок
+//b. age - вік, число
+//c. numbersOfPost - кількість постів, число
+//d. клас очікує 1 параметр - об'єкт налаштувань з однойменними властивостями
+
+//Додай метод getInfo(), який повертає рядок:
+//`Користувачеві ${} ${} років і в нього ${} публікацій.`
+
+// const User = function ({ userName, age, numbersOfPost }) {
+//   // const {userName, age, numbersOfPost} = userObj;
+//   this.userName = userName;
+//   this.age = age;
+//   this.numbersOfPost = numbersOfPost;
+
+//   this.getInfo = function () {
+//     console.log(
+//       `Користувачеві ${this.userName} ${this.age} років і в нього ${this.numbersOfPost} публікацій.`
+//     );
+//   };
+// };
+
+// const userArtem = new User({ userName: "Artem", age: 24, numbersOfPost: 999 });
+// userArtem.getInfo();
+// console.log("🚀 ~ userArtem:", userArtem);
+
+// const userIvan = new User({ userName: "Ivan", age: 24, numbersOfPost: 999 });
+// console.log("🚀 ~ userIvan:", userIvan);
