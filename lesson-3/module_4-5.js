@@ -126,3 +126,19 @@
 // };
 
 // callAction(item.getQuatity.bind(item));
+
+//TODO: № 5  ==============================================
+//Напишіть функцію savePassword(password), яка приймає
+//пароль і повертає внутрішню функцію, що приймає
+//рядок і повертає буль true, якщо рядок збігається зі збереженим
+//паролем і false - якщо не збігається
+
+// function savePassword(password) {
+//   return function userPassword() {
+//     const askPass = prompt("Enter your password");
+//     return askPass === password;
+//   };
+// }
+
+// const userPass = savePassword("qwerty");
+// console.log(userPass());
