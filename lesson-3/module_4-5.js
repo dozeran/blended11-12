@@ -48,3 +48,21 @@
 
 // makeProduct("tablet", 6000, showProduct);
 // makeProduct("iphone", 21000, showProduct);
+
+//TODO № 3 на замикання ✅ ==============================================
+
+// Напишіть функцію makeShef(shefName), яка повертає функцію
+// makeDish(dish), яка памятає імя щефа піл час її виклику
+// Функція  makeDish має лошіровать рядок "<імя шефа> is cooking <dish>"
+
+// function makeShef(shefName) {
+//   return function makeDish(dish) {
+//     console.log(`${shefName} is cooking ${dish}`);
+//   };
+// }
+// const shefIvan = makeShef("ivan");
+// // console.log();
+// shefIvan("borsch");
+// const shefMykola = makeShef("Mykola");
+// // console.log();
+// shefMykola("Olivie");
