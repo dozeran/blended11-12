@@ -86,3 +86,43 @@
 // total();
 // total();
 // total();
+
+//TODO: № 6 на this ✅ ==============================================
+//Виправте помилки, щоб код працював
+// const product = {
+//   price: 5000,
+//   showPrice() {
+//     console.log(this.price);
+//   },
+// };
+// product.showPrice();
+
+//TODO: № 7 на this ✅==============================================
+//Виправте помилки, щоб код працював
+
+// function callAction(action) {
+//   return action();
+// }
+
+// const item = {
+//   quantity: 5,
+
+//   getQuatity() {
+//     console.log(this.quantity);
+//   },
+// };
+
+// callAction(item.getQuatity());
+// function callAction(action) {
+//   action();
+// }
+
+// const item = {
+//   quantity: 5,
+
+//   getQuatity() {
+//     console.log(this.quantity);
+//   },
+// };
+
+// callAction(item.getQuatity.bind(item));
