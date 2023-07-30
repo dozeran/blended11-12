@@ -66,3 +66,23 @@
 // const shefMykola = makeShef("Mykola");
 // // console.log();
 // shefMykola("Olivie");
+
+//TODO: № 4 на замикання ✅ ==============================================
+//Напишіть функцію makeCounter, яка повертає іншу
+//функцію, яка вважає та логує кількість своїх викликів
+
+// function makeCounter() {
+//   let result = 0;
+//   return function count() {
+//     result += 1;
+//     console.log(result);
+//   };
+// }
+
+// const total = makeCounter();
+// total();
+// total();
+// total();
+// total();
+// total();
+// total();
